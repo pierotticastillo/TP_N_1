@@ -1,3 +1,7 @@
+// Integrantes del equipo:
+// 1. GARCÍA, Manuel Alejandro
+// 2. PIEROTTI CASTILLO, Enrique Alejandro
+
 // Para su ejecución se puede realizar con el comando "tsc index.ts" y luego "node index.js"
 // O ejecutandolo con el comando tsx index.ts o tsx watch index.ts
 
