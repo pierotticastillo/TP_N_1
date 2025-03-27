@@ -1,3 +1,6 @@
+// Para su ejecución se puede realizar con el comando "tsc index.ts" y luego "node index.js"
+// O ejecutandolo con el comando tsx index.ts o tsx watch index.ts
+
 // 1. Crear una interfaz “Animal” con un atributo “nombre” y un método “gritar”.
 interface Animal {
   nombre: string;
@@ -65,11 +68,9 @@ interface Fila<T> {
 
 class FilaGenerica<T> implements Fila<T> {
   private elementos: T[] = [];
-
   agregar(elemento: T): void {
     this.elementos.push(elemento);
   }
-
   remover(): T | undefined {
     return this.elementos.shift();
   }
