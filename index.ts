@@ -60,6 +60,11 @@ enum DiasSemana {
   Domingo = "Domingo",
 }
 
+console.log("Días de la semana:");
+for (const dia in DiasSemana) {
+  console.log(DiasSemana[dia]);
+}
+
 // 7. Crear una variable que pueda contener número o string, asignarle "Messi" y luego 10.
 let variable: number | string = "Messi";
 variable = 10;
