@@ -27,11 +27,10 @@ Este proyecto está desarrollado en **TypeScript**.
 
 ## 📦 Configuración Inicial del Proyecto
 
-Para generar el archivo de configuración `tsconfig.json`, ejecutá el siguiente comando desde la terminal:
 
 ```sh
+Para generar el archivo de configuración `tsconfig.json`, ejecutá el siguiente comando desde la terminal:
 tsc --init
-
 
 ## 🚀 Ejecución del Proyecto
 Para ejecutar el código, se puede utilizar uno de los siguientes comandos:
