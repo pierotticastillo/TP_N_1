@@ -2,7 +2,8 @@
 // 1. GARCÍA, Manuel Alejandro
 // 2. PIEROTTI CASTILLO, Enrique Alejandro
 
-// Para su ejecución se puede realizar con el comando "tsc index.ts" y luego "node index.js"
+// Para su ejecución se puede realizar con el comando ts-node index.ts
+// O "tsc index.ts" y luego "node index.js"
 // O ejecutandolo con el comando tsx index.ts o tsx watch index.ts
 
 // 1. Crear una interfaz “Animal” con un atributo “nombre” y un método “gritar”.
