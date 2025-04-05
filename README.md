@@ -25,10 +25,21 @@ Este proyecto está desarrollado en **TypeScript**.
 
 ---
 
+## 📦 Configuración Inicial del Proyecto
+
+Para generar el archivo de configuración `tsconfig.json`, ejecutá el siguiente comando desde la terminal:
+
+```sh
+tsc --init
+
+
 ## 🚀 Ejecución del Proyecto
 Para ejecutar el código, se puede utilizar uno de los siguientes comandos:
 
 ```sh
+# Este comando compila el archivo index.ts y lo ejecuta automáticamente sin necesidad de generar un .js por separado.
+ts-node index.ts
+
 # Compilar con TypeScript y ejecutar con Node.js
 tsc index.ts && node index.js
 
