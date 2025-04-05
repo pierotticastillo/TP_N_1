@@ -1,5 +1,11 @@
-¡Claro! 🔥  
-Te lo acomodo de forma más ordenada y prolija, como si fuera un README de proyecto o entrega formal:
+¡Te ayudooo! 🙌  
+Lo que te pasa es que ahí se mezclaron **marcas de conflicto de Git** (`<<<<<<< HEAD`, `=======`, `>>>>>>> abc836c...`).
+
+Esas marcas aparecen cuando Git detecta **conflictos de fusión (merge conflicts)** y no sabe cuál versión conservar.
+
+**Para arreglarlo**, simplemente eliminá **todo lo que esté entre** esas marcas, y quedate solo con el contenido correcto.
+
+Te paso el texto limpio y corregido sin conflictos:
 
 ---
 
@@ -95,6 +101,3 @@ interface Fila<T> {
 Este trabajo práctico tiene como objetivo **aplicar los conceptos de interfaces, clases, enumeraciones y genéricos en TypeScript**.
 
 ---
-
-¿Querés que también te lo pase en formato `.md` (Markdown) para que lo pegues directo si lo necesitás? 🚀  
-¿O preferís una versión más formal tipo Word/PDF?
