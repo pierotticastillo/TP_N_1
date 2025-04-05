@@ -34,8 +34,8 @@ class Vaca implements Animal {
 }
 
 // 3. Crear la función “describirAnimal” que imprima el nombre y el sonido del animal.
-function describirAnimal(animal: Animal): string {
-  return `El animal ${animal.nombre} hace ${animal.gritar()}`;
+function describirAnimal(animal: Animal): void {
+  console.log(`El animal ${animal.nombre} hace ${animal.gritar()}`);
 }
 
 // 4. Crear las constantes con instancias de cada animal.
@@ -45,9 +45,9 @@ const vaca: Vaca = new Vaca("Bess");
 
 // 5. Ejecutar la función “describirAnimal” con cada constante.
 console.log("Descripción de los animales:");
-console.log(describirAnimal(perro));
-console.log(describirAnimal(gato));
-console.log(describirAnimal(vaca));
+describirAnimal(perro);  
+describirAnimal(gato);   
+describirAnimal(vaca);
 
 // 6. Crear un Enum “DiasSemana” con los días de la semana.
 enum DiasSemana {
