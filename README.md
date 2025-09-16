@@ -93,3 +93,9 @@ interface Fila<T> {
 Este trabajo práctico tiene como objetivo **aplicar los conceptos de interfaces, clases, enumeraciones y genéricos en TypeScript**.
 
 ---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia [MIT](./LICENSE).
+
+---
